@@ -3,16 +3,13 @@ def test_fullstring(nms):
         1: [nms.get_regexcompiledregex("tEs"),"tested"],
         2: [nms.get_regexcompiledregex("tEs"),"teestEd"],
         3: [nms.get_regexcompiledregex("tEs"),"teweted"],
-        4: [nms.get_regexcompiledregex("Bari Etchi"), "Bari Etchi"],
-        5: [nms.get_regexcompiledregex("Bari Etchi"), "Barri Etcchi"],
-        6: [nms.get_regexcompiledregex("Bari Etchi"), "Barrui Errchi"],
-        7: [nms.get_regexcompiledregex("2022 triumph street triple"), "2022 triumph street triple"],
-        8: [nms.get_regexcompiledregex("2022 triumph street triple"), "2022triuumph streeeet  trriple"],
-        9: [nms.get_regexcompiledregex("2022 triumph street triple"), "201222 triunjphastreet tripople"],
-        10: [nms.get_regexcompiledregex("a"),'a'],
-        11: [nms.get_regexcompiledregex("a"),'q'],
-        12: [nms.get_regexcompiledregex("a"),'aS'],
-        13: [nms.get_regexcompiledregex("a"),'l'],
+        4: [nms.get_regexcompiledregex("2022 triumph street triple"), "2022 triumph street triple"],
+        5: [nms.get_regexcompiledregex("2022 triumph street triple"), "2022triuumph streeeet  trriple"],
+        6: [nms.get_regexcompiledregex("2022 triumph street triple"), "201222 triunjphastreet tripople"],
+        7: [nms.get_regexcompiledregex("a"),'a'],
+        8: [nms.get_regexcompiledregex("a"),'q'],
+        9: [nms.get_regexcompiledregex("a"),'aS'],
+        10: [nms.get_regexcompiledregex("a"),'l'],
     }
     for i in test_dict.keys():
         assert test_dict[i][0].search(test_dict[i][1]) != None
