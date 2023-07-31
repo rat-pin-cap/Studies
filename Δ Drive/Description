@@ -1,6 +1,0 @@
-Δ Drive:
-
-This is an experiment in building a very simple game. It was created to be a submission to the DFS birthday community project.
-
-For simplicity, the entirety of the game is within the single HTML file and it should be self sufficient without a need to download other libraries. This proved somewhat restrictive, but the restriction of only using what I have immediately available made for an interesting challenge from which innate flaws crop up in the game (audio for one). 
-Source code (from before the unification) will be uploaded at a later point in time.
