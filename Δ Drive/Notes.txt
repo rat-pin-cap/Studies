@@ -1,0 +1,3 @@
+This was a project done as part of the DFS fans server birthday project(2023). It is a simple game built from the ground up using art created(poorly) by myself, audio made using sound clips from my bike (which was also traced over to make the bike ingame), and is all bundled into a single HTML file for simplicity
+
+The game itself was streamed during the celebration ontop of having been a learning experience in both how games work, and Javascript which I was weak with when i started this. This has proven to be an interesting project and I am planning something larger and more complex for next years submission
